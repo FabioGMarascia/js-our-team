@@ -1,3 +1,4 @@
+// MILESTONE 0
 let team_members = [
 	{ name: "Wayne Barnett", role: "Founder & CEO", picture: "./img/wayne-barnett-founder-ceo.jpg" },
 	{ name: "Angela Caroll", role: "Chief Editor", picture: "./img/angela-caroll-chief-editor.jpg" },
@@ -19,6 +20,19 @@ let team_members = [
 	},
 ];
 
+// MILESTONE 1
+// for (let i = 0; i < 6; i++) {
+// 	console.log(team_members[i].name + ", " + team_members[i].role);
+// }
+
+// MILESTONE 2 1/2 - B1 - B2
+let box = document.querySelector(`.row`);
+let card;
+let image;
+let card_txt;
+let card_body;
+let col_4;
+
 for (let i = 0; i < 6; i++) {
-	console.log(team_members[i].name + ", " + team_members[i].role);
+	createCard(team_members[i], i);
 }

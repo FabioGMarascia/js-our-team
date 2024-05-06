@@ -1,10 +1,6 @@
 /********************* COMMON **********************/
 body {
 	background-color: #222;
-	color: white;
+	color: red;
 	font-family: sans-serif;
-}
-
-.deb {
-	border: 2px dashed blue;
 }

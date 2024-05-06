@@ -1,0 +1,33 @@
+// MILESTONE 2 1/2
+// function cardTxt(object, i) {
+// 	card_txt = document.createElement(`p`);
+// 	card_txt.classList.add(`.card-text`);
+// 	card_txt.append(object.name + ", " + object.role);
+// 	box.append(card_txt);
+// }
+
+// B1 - B2
+function createCard(object, i) {
+	col_4 = document.createElement(`div`);
+	col_4.classList.add(`col-4`);
+
+	card = document.createElement(`div`);
+	card.classList.add(`card`);
+
+	card_body = document.createElement(`div`);
+	card_body.classList.add(`card-body`);
+
+	image = document.createElement("img");
+	image.classList.add(`card-img-top`);
+	image.src = team_members[i].picture;
+
+	card_txt = document.createElement(`p`);
+	card_txt.classList.add(`card-text`, `text-center`, `fw-bold`, `fs-5`);
+
+	card_txt.append(object.name + " - " + object.role);
+	card_body.append(card_txt);
+	card.append(image);
+	card.append(card_body);
+	col_4.append(card);
+	box.append(col_4);
+}
