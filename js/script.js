@@ -19,4 +19,6 @@ let team_members = [
 	},
 ];
 
-for (let i = 0; i < 6; i++) {}
+for (let i = 0; i < 6; i++) {
+	console.log(team_members[i].name + ", " + team_members[i].role);
+}
