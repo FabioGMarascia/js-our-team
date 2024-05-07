@@ -15,11 +15,11 @@ function createCardInner(object, container) {
 		<div class="card">
 			<img class="card-img-top" src="${object.picture}">
 			<div class="card-body">
-				<p class="card-text text-center fw-bold fs-5"> 
-				NAME: ${object.name}
+				<p class="card-text text-center fw-bold fs-4"> 
+				${object.name}
 				</p>
-				<p class="card-text text-center fw-bold fs-5"> 
-				ROLE: ${object.role}
+				<p class="card-text text-center fw-bold "> 
+				${object.role}
 				</p>
 			</div>
 		</div>
