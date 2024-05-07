@@ -10,7 +10,8 @@
 
 // INNER FUNCTION
 function createCardInner(object, container) {
-	container.innerHTML += `<div class="col-4">
+	container.innerHTML += `
+	<div class="col-4">
 		<div class="card">
 			<img class="card-img-top" src="${object.picture}">
 			<div class="card-body">
