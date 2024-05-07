@@ -1,7 +1,15 @@
 // MILESTONE 0
 let team_members = [
-	{ name: "Wayne Barnett", role: "Founder & CEO", picture: "./img/wayne-barnett-founder-ceo.jpg" },
-	{ name: "Angela Caroll", role: "Chief Editor", picture: "./img/angela-caroll-chief-editor.jpg" },
+	{
+		name: "Wayne Barnett",
+		role: "Founder & CEO",
+		picture: "./img/wayne-barnett-founder-ceo.jpg",
+	},
+	{
+		name: "Angela Caroll",
+		role: "Chief Editor",
+		picture: "./img/angela-caroll-chief-editor.jpg",
+	},
 	{
 		name: "Walter Gordon",
 		role: "Office Manager",
@@ -12,7 +20,11 @@ let team_members = [
 		role: "Social Media Manager",
 		picture: "./img/angela-lopez-social-media-manager.jpg",
 	},
-	{ name: "Scott Estrada", role: "Developer", picture: "./img/scott-estrada-developer.jpg" },
+	{
+		name: "Scott Estrada",
+		role: "Developer",
+		picture: "./img/scott-estrada-developer.jpg",
+	},
 	{
 		name: "Barbara Ramos",
 		role: "Graphic Designer",
