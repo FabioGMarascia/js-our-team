@@ -8,6 +8,20 @@
 
 // B1 - B2
 
+// INNER FUNCTION
+function createCardInner(object) {
+	box.innerHTML += `<div class="col-4">
+		<div class="card">
+			<img class="card-img-top" src="${object.picture}">
+			<div class="card-body">
+				<p class="card-text text-center fw-bold fs-5"> 
+				${object.name} - ${object.role}
+				</p>
+			</div>
+		</div>
+	</div>`;
+}
+
 // // APPEND FUNCTION
 // function createCardAppend(object) {
 // 	col_4 = document.createElement(`div`);
@@ -33,17 +47,3 @@
 // 	col_4.append(card);
 // 	box.append(col_4);
 // }
-
-// INNER FUNCTION
-function createCardInner(object) {
-	box.innerHTML += `<div class="col-4">
-		<div class="card">
-			<img class="card-img-top" src="${object.picture}">
-			<div class="card-body">
-				<p class="card-text text-center fw-bold fs-5"> 
-				${object.name} - ${object.role}
-				</p>
-			</div>
-		</div>
-	</div>`;
-}
