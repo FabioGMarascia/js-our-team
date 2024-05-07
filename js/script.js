@@ -41,7 +41,7 @@ let team_members = [
 let box = document.querySelector(`.row`);
 
 for (let i = 0; i < 6; i++) {
-	createCardInner(team_members[i]);
+	createCardInner(team_members[i], box);
 }
 
 // FOR APPEND FUNCTION

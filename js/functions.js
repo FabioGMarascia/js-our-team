@@ -9,8 +9,8 @@
 // B1 - B2
 
 // INNER FUNCTION
-function createCardInner(object) {
-	box.innerHTML += `<div class="col-4">
+function createCardInner(object, container) {
+	container.innerHTML += `<div class="col-4">
 		<div class="card">
 			<img class="card-img-top" src="${object.picture}">
 			<div class="card-body">
@@ -23,7 +23,7 @@ function createCardInner(object) {
 }
 
 // // APPEND FUNCTION
-// function createCardAppend(object) {
+// function createCardAppend(object, container) {
 // 	col_4 = document.createElement(`div`);
 // 	col_4.classList.add(`col-4`);
 
@@ -45,5 +45,5 @@ function createCardInner(object) {
 // 	card.append(image);
 // 	card.append(card_body);
 // 	col_4.append(card);
-// 	box.append(col_4);
+// 	container.append(col_4);
 // }
