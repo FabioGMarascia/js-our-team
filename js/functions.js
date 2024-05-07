@@ -16,7 +16,10 @@ function createCardInner(object, container) {
 			<img class="card-img-top" src="${object.picture}">
 			<div class="card-body">
 				<p class="card-text text-center fw-bold fs-5"> 
-				${object.name} - ${object.role}
+				Name: ${object.name}
+				</p>
+				<p class="card-text text-center fw-bold fs-5"> 
+				Role: ${object.role}
 				</p>
 			</div>
 		</div>
