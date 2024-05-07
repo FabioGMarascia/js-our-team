@@ -39,12 +39,14 @@ let team_members = [
 
 // MILESTONE 2 1/2 - B1 - B2
 let box = document.querySelector(`.row`);
-let card;
-let image;
-let card_txt;
-let card_body;
-let col_4;
 
 for (let i = 0; i < 6; i++) {
-	createCard(team_members[i], i);
+	createCardAppend(team_members[i]);
 }
+
+// FOR APPEND FUNCTION
+// let card;
+// let image;
+// let card_txt;
+// let card_body;
+// let col_4;
